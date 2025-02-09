@@ -30,11 +30,10 @@ Currently, I'm working on:
 
 GitHub: dbaidya811
 
-## Protfolio link: https://deepbaidya.netlify.app/
-
 LinkedIn: https://www.linkedin.com/in/deep-baidya-0376b1315
 
 Email: dbaidya811@gmail.com
 
+## Protfolio link: https://deepbaidya.netlify.app/
 
 ##💡 Always learning, building, and exploring new possibilities in tech!
