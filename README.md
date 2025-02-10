@@ -1,39 +1,32 @@
-# Portfolio
+<h1 align="center">Hi 👋, I'am Deep Baidya</h1>
+<h3 align="center">I'm a BCA student passionate about technology, programming, and innovation. I have experience in web development, working with Excel, Word, PowerPoint, and proficient in Bengali typing.</h3>
 
-Hi there! 👋 I'm Deep Baidya
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=dbaidya811&label=Profile%20views&color=0e75b6&style=flat" alt="dbaidya811" /> </p>
 
-#🚀 About Me
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=dbaidya811" alt="dbaidya811" /></a> </p>
 
-I'm a BCA student passionate about technology, programming, and innovation. I have experience in web development, working with Excel, Word, PowerPoint, and proficient in Bengali typing.
+<p align="left"> <a href="https://twitter.com/dbaidya811" target="blank"><img src="https://img.shields.io/twitter/follow/dbaidya811?logo=twitter&style=for-the-badge" alt="dbaidya811" /></a> </p>
 
-Currently, I'm working on:
+- 🔭 I’m currently working on [Portfolio](https://deepbaidya.netlify.app/)
 
-•🛠 Freelancing app development
+- 🌱 I’m currently learning **BCA**
 
-•⚡ Logic circuit implementation
+- 👨‍💻 All of my projects are available at [https://deepbaidya.netlify.app/](https://deepbaidya.netlify.app/)
 
-•🚀 Building my own tech company Tech Ethics, aiming to work on projects like TCS and Tech Mahindra
+- 📫 How to reach me **dbaidya811@gmail.com**
 
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+<a href="https://twitter.com/dbaidya811" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="dbaidya811" height="30" width="40" /></a>
+<a href="https://fb.com/dbaidya811" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="dbaidya811" height="30" width="40" /></a>
+<a href="https://instagram.com/dbaidya811" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="dbaidya811" height="30" width="40" /></a>
+</p>
 
-#•🛠 Skills & Tools
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> </a> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a> <a href="https://cloud.google.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" alt="gcp" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p>
 
-• Languages: HTML, CSS, JavaScript, Python (basic)
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=dbaidya811&show_icons=true&locale=en&layout=compact" alt="dbaidya811" /></p>
 
-• Tech Stack: Web Development, MacroDroid Automation
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=dbaidya811&show_icons=true&locale=en" alt="dbaidya811" /></p>
 
-• Software: Excel, Word, PowerPoint
-
-• Typing: Bengali & English
-
-
-#📫 Connect with Me
-
-GitHub: dbaidya811
-
-LinkedIn: https://www.linkedin.com/in/deep-baidya-0376b1315
-
-Email: dbaidya811@gmail.com
-
-## Protfolio link: https://deepbaidya.netlify.app/
-
-##💡 Always learning, building, and exploring new possibilities in tech!
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=dbaidya811&" alt="dbaidya811" /></p>
