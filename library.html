@@ -1,0 +1,313 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Your Library
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: 'Roboto', sans-serif;
+        }
+  </style>
+ </head>
+ <body class="bg-gray-900 text-white">
+  <header class="bg-gray-800 p-4">
+   <div class="container mx-auto flex justify-between items-center">
+    <h1 class="text-2xl font-bold">
+     Your Library
+    </h1>
+    <div class="block lg:hidden">
+     <button class="text-gray-400 focus:outline-none" id="menu-button">
+      <i class="fas fa-bars">
+      </i>
+     </button>
+    </div>
+    <nav class="hidden lg:flex space-x-4" id="nav-menu">
+     <ul class="flex space-x-4">
+      <li>
+       <a class="hover:text-indigo-500" href="projects2.html">
+        Home
+       </a>
+      </li>
+      <li>
+       <a class="hover:text-indigo-500" href="movies.html">
+        Browse
+       </a>
+      </li>
+      <li>
+       <a class="hover:text-indigo-500" href="from.html">
+        Radio
+       </a>
+      </li>
+      <li>
+       <a class="hover:text-indigo-500" href="#">
+        Search
+       </a>
+      </li>
+     </ul>
+    </nav>
+    <div class="relative hidden lg:block">
+     <input class="bg-gray-700 text-white rounded-full pl-10 pr-4 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-500" placeholder="Search..." type="text"/>
+     <span class="absolute left-3 top-2 text-gray-400">
+      <i class="fas fa-search">
+      </i>
+     </span>
+    </div>
+   </div>
+   <div class="lg:hidden mt-4 hidden" id="mobile-search">
+    <div class="relative">
+     <input class="bg-gray-700 text-white rounded-full pl-10 pr-4 py-2 w-full focus:outline-none focus:ring-2 focus:ring-indigo-500" placeholder="Search..." type="text"/>
+     <span class="absolute left-3 top-2 text-gray-400">
+      <i class="fas fa-search">
+      </i>
+     </span>
+    </div>
+   </div>
+   <nav class="lg:hidden mt-4 hidden" id="mobile-menu">
+    <ul class="space-y-2">
+     <li>
+      <a class="block hover:text-indigo-500" href="projects2.html">
+       Home
+      </a>
+     </li>
+     <li>
+      <a class="block hover:text-indigo-500" href="movies.html">
+       Browse
+      </a>
+     </li>
+     <li>
+      <a class="block hover:text-indigo-500" href="from.html">
+       Radio
+      </a>
+     </li>
+     <li>
+      <a class="block hover:text-indigo-500" href="#">
+       Search
+      </a>
+     </li>
+    </ul>
+   </nav>
+  </header>
+  <main class="container mx-auto py-8 px-4">
+   <div class="space-y-8">
+    <div>
+     <h2 class="text-2xl font-bold mb-4">
+      Playlists
+     </h2>
+     <div class="overflow-x-auto">
+      <div class="flex space-x-4">
+       <div class="bg-gray-800 p-4 rounded-lg shadow-lg transform transition duration-500 hover:scale-105 min-w-[250px]">
+        <img alt="Playlist cover image of a pop music playlist" class="w-full h-48 object-cover rounded-t-lg" height="200" src="https://storage.googleapis.com/a1aa/image/cn-PYTXRR1WUbdluX_RWq-dpf9nk9sRh2ARwjaGBB5U.jpg" width="300"/>
+        <div class="p-4">
+         <h2 class="text-xl font-bold">
+          Pop Hits
+         </h2>
+         <p class="text-gray-400 mt-2">
+          50 songs
+         </p>
+        </div>
+       </div>
+       <div class="bg-gray-800 p-4 rounded-lg shadow-lg transform transition duration-500 hover:scale-105 min-w-[250px]">
+        <img alt="Playlist cover image of a rock music playlist" class="w-full h-48 object-cover rounded-t-lg" height="200" src="https://storage.googleapis.com/a1aa/image/UfBXbJofnFLgSxYTivTehgIJ0lD2Kk3TtHnuVfM_s8U.jpg" width="300"/>
+        <div class="p-4">
+         <h2 class="text-xl font-bold">
+          Rock Classics
+         </h2>
+         <p class="text-gray-400 mt-2">
+          40 songs
+         </p>
+        </div>
+       </div>
+       <div class="bg-gray-800 p-4 rounded-lg shadow-lg transform transition duration-500 hover:scale-105 min-w-[250px]">
+        <img alt="Playlist cover image of a jazz music playlist" class="w-full h-48 object-cover rounded-t-lg" height="200" src="https://storage.googleapis.com/a1aa/image/VEux8heXsMtxZDf8aPJbsTPgQFkKSNy0CoM_0ro15qk.jpg" width="300"/>
+        <div class="p-4">
+         <h2 class="text-xl font-bold">
+          Jazz Vibes
+         </h2>
+         <p class="text-gray-400 mt-2">
+          30 songs
+         </p>
+        </div>
+       </div>
+       <div class="bg-gray-800 p-4 rounded-lg shadow-lg transform transition duration-500 hover:scale-105 min-w-[250px]">
+        <img alt="Playlist cover image of a hip-hop music playlist" class="w-full h-48 object-cover rounded-t-lg" height="200" src="https://storage.googleapis.com/a1aa/image/_CtNvVbzAyCVBB_eW1eC6fSbJOM4u-7F6iNYalXNer0.jpg" width="300"/>
+        <div class="p-4">
+         <h2 class="text-xl font-bold">
+          Hip-Hop Beats
+         </h2>
+         <p class="text-gray-400 mt-2">
+          45 songs
+         </p>
+        </div>
+       </div>
+       <div class="bg-gray-800 p-4 rounded-lg shadow-lg transform transition duration-500 hover:scale-105 min-w-[250px]">
+        <img alt="Playlist cover image of a classical music playlist" class="w-full h-48 object-cover rounded-t-lg" height="200" src="https://storage.googleapis.com/a1aa/image/FmETZq83OqaEyMa0Zm8ZEJSfqieCAtvSAjtTv6f5_U0.jpg" width="300"/>
+        <div class="p-4">
+         <h2 class="text-xl font-bold">
+          Classical Essentials
+         </h2>
+         <p class="text-gray-400 mt-2">
+          60 songs
+         </p>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div>
+     <h2 class="text-2xl font-bold mb-4">
+      Albums
+     </h2>
+     <div class="overflow-x-auto">
+      <div class="flex space-x-4">
+       <div class="bg-gray-800 p-4 rounded-lg shadow-lg transform transition duration-500 hover:scale-105 min-w-[250px]">
+        <img alt="Album cover image of a pop music album" class="w-full h-48 object-cover rounded-t-lg" height="200" src="https://storage.googleapis.com/a1aa/image/AHk8m6XCS20rHGmrdxM33wfIoMC1aC-rlKdSDbmJrM4.jpg" width="300"/>
+        <div class="p-4">
+         <h2 class="text-xl font-bold">
+          Pop Album
+         </h2>
+         <p class="text-gray-400 mt-2">
+          Artist Name
+         </p>
+        </div>
+       </div>
+       <div class="bg-gray-800 p-4 rounded-lg shadow-lg transform transition duration-500 hover:scale-105 min-w-[250px]">
+        <img alt="Album cover image of a rock music album" class="w-full h-48 object-cover rounded-t-lg" height="200" src="https://storage.googleapis.com/a1aa/image/V3736bOhTnIvnA4dpNFNTvhxeUvRxUzGNz66j-7S7-c.jpg" width="300"/>
+        <div class="p-4">
+         <h2 class="text-xl font-bold">
+          Rock Album
+         </h2>
+         <p class="text-gray-400 mt-2">
+          Artist Name
+         </p>
+        </div>
+       </div>
+       <div class="bg-gray-800 p-4 rounded-lg shadow-lg transform transition duration-500 hover:scale-105 min-w-[250px]">
+        <img alt="Album cover image of a jazz music album" class="w-full h-48 object-cover rounded-t-lg" height="200" src="https://storage.googleapis.com/a1aa/image/9GDn8seZDOb1aQf81TpIY83uZoGxSdalFM3ghF-yP5E.jpg" width="300"/>
+        <div class="p-4">
+         <h2 class="text-xl font-bold">
+          Jazz Album
+         </h2>
+         <p class="text-gray-400 mt-2">
+          Artist Name
+         </p>
+        </div>
+       </div>
+       <div class="bg-gray-800 p-4 rounded-lg shadow-lg transform transition duration-500 hover:scale-105 min-w-[250px]">
+        <img alt="Album cover image of a hip-hop music album" class="w-full h-48 object-cover rounded-t-lg" height="200" src="https://storage.googleapis.com/a1aa/image/iIZJzjyz0VUo_mcvuEBeDHjR203Guko6zZFx0v6WsAk.jpg" width="300"/>
+        <div class="p-4">
+         <h2 class="text-xl font-bold">
+          Hip-Hop Album
+         </h2>
+         <p class="text-gray-400 mt-2">
+          Artist Name
+         </p>
+        </div>
+       </div>
+       <div class="bg-gray-800 p-4 rounded-lg shadow-lg transform transition duration-500 hover:scale-105 min-w-[250px]">
+        <img alt="Album cover image of a classical music album" class="w-full h-48 object-cover rounded-t-lg" height="200" src="https://storage.googleapis.com/a1aa/image/4lcqHTo5fXjqYHYCZza56J0Gl8-qPze_q_S0MUR7GXY.jpg" width="300"/>
+        <div class="p-4">
+         <h2 class="text-xl font-bold">
+          Classical Album
+         </h2>
+         <p class="text-gray-400 mt-2">
+          Artist Name
+         </p>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div>
+     <h2 class="text-2xl font-bold mb-4">
+      Artists
+     </h2>
+     <div class="overflow-x-auto">
+      <div class="flex space-x-4">
+       <div class="bg-gray-800 p-4 rounded-lg shadow-lg transform transition duration-500 hover:scale-105 min-w-[250px]">
+        <img alt="Artist image of a pop music artist" class="w-full h-48 object-cover rounded-t-lg" height="200" src="https://storage.googleapis.com/a1aa/image/4XizGqLQeX2bk0uHAMcYjMw3ZVrlpL6TzhF0gYQ9E2c.jpg" width="300"/>
+        <div class="p-4">
+         <h2 class="text-xl font-bold">
+          Pop Artist
+         </h2>
+         <p class="text-gray-400 mt-2">
+          10 albums
+         </p>
+        </div>
+       </div>
+       <div class="bg-gray-800 p-4 rounded-lg shadow-lg transform transition duration-500 hover:scale-105 min-w-[250px]">
+        <img alt="Artist image of a rock music artist" class="w-full h-48 object-cover rounded-t-lg" height="200" src="https://storage.googleapis.com/a1aa/image/BdjdnJ_N6oaeBl7M2XoLa04vYk785lgxfaQnMS5dySk.jpg" width="300"/>
+        <div class="p-4">
+         <h2 class="text-xl font-bold">
+          Rock Artist
+         </h2>
+         <p class="text-gray-400 mt-2">
+          8 albums
+         </p>
+        </div>
+       </div>
+       <div class="bg-gray-800 p-4 rounded-lg shadow-lg transform transition duration-500 hover:scale-105 min-w-[250px]">
+        <img alt="Artist image of a jazz music artist" class="w-full h-48 object-cover rounded-t-lg" height="200" src="https://storage.googleapis.com/a1aa/image/8fDt-sbs7HIFBtatR-qpYhBuVAmzdSDt-jW0eDuEpus.jpg" width="300"/>
+        <div class="p-4">
+         <h2 class="text-xl font-bold">
+          Jazz Artist
+         </h2>
+         <p class="text-gray-400 mt-2">
+          12 albums
+         </p>
+        </div>
+       </div>
+       <div class="bg-gray-800 p-4 rounded-lg shadow-lg transform transition duration-500 hover:scale-105 min-w-[250px]">
+        <img alt="Artist image of a hip-hop music artist" class="w-full h-48 object-cover rounded-t-lg" height="200" src="https://storage.googleapis.com/a1aa/image/8kUFYDHIA8NHMvhC2OnchpnpWcSnO_SupguUAgWntEU.jpg" width="300"/>
+        <div class="p-4">
+         <h2 class="text-xl font-bold">
+          Hip-Hop Artist
+         </h2>
+         <p class="text-gray-400 mt-2">
+          15 albums
+         </p>
+        </div>
+       </div>
+       <div class="bg-gray-800 p-4 rounded-lg shadow-lg transform transition duration-500 hover:scale-105 min-w-[250px]">
+        <img alt="Artist image of a classical music artist" class="w-full h-48 object-cover rounded-t-lg" height="200" src="https://storage.googleapis.com/a1aa/image/F4zdHiXcSBDQsqm-CwMn-LdLWDifWLMupPW-h7clshs.jpg" width="300"/>
+        <div class="p-4">
+         <h2 class="text-xl font-bold">
+          Classical Artist
+         </h2>
+         <p class="text-gray-400 mt-2">
+          20 albums
+         </p>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </main>
+  <footer class="bg-gray-800 p-4 mt-8">
+   <div class="container mx-auto text-center">
+    <p class="text-gray-400">
+     © 2023 Your Library. All rights reserved.
+    </p>
+   </div>
+  </footer>
+  <script>
+   document.getElementById('menu-button').addEventListener('click', function() {
+        var menu = document.getElementById('mobile-menu');
+        var search = document.getElementById('mobile-search');
+        if (menu.classList.contains('hidden')) {
+            menu.classList.remove('hidden');
+            search.classList.remove('hidden');
+        } else {
+            menu.classList.add('hidden');
+            search.classList.add('hidden');
+        }
+    });
+  </script>
+ </body>
+</html>
