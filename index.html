@@ -206,7 +206,7 @@
      Feel free to reach out to me for any project inquiries or collaborations.
     </p>
     <div class="mt-8 max-w-lg mx-auto">
-     <form action="#" class="bg-gray-900 p-8 rounded-lg shadow-lg" method="POST">
+     <form id="contact-form" class="bg-gray-900 p-8 rounded-lg shadow-lg" method="POST">
       <div class="mb-4">
        <label class="block text-gray-400 font-bold mb-2" for="name">
         Name
@@ -230,7 +230,15 @@
       </button>
      </form>
     </div>
-   </div>
+    <!-- Success Popup -->
+    <div id="success-popup" class="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 hidden">
+        <div class="bg-gray-800 p-6 rounded-lg shadow-lg text-center text-white">
+            <i class="fas fa-check-circle text-green-500 text-4xl mb-4"></i>
+            <h2 class="text-2xl font-bold mb-2">Message Sent Successfully!</h2>
+            <p>Thank you for reaching out. I will get back to you soon.</p>
+            <button id="close-popup" class="mt-4 bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-600">Close</button>
+        </div>
+    </div>
   </section>
   <!-- Buy Me a Coffee Section -->
   <section class="bg-gray-900 py-10 text-center">
@@ -241,7 +249,7 @@
         <p class="mt-4 text-gray-400">
             If you like my work and want to support me, you can buy me a coffee!
         </p>
-        <a href="https://www.buymeacoffee.com/dbaidya811e" target="_blank" class="mt-4 inline-block bg-yellow-500 text-black py-2 px-4 rounded-lg hover:bg-yellow-600">
+        <a href="https://www.buymeacoffee.com/yourusername" target="_blank" class="mt-4 inline-block bg-yellow-500 text-black py-2 px-4 rounded-lg hover:bg-yellow-600">
             <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me a Coffee" style="height: 40px; width: 160px;">
         </a>
     </div>
@@ -281,6 +289,22 @@
         document.getElementById('menu-btn').addEventListener('click', function() {
             var menu = document.getElementById('mobile-menu');
             menu.classList.toggle('hidden');
+        });
+        document.getElementById('contact-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            var name = document.getElementById('name').value;
+            var email = document.getElementById('email').value;
+            var message = document.getElementById('message').value;
+
+            if (name && email && message) {
+                document.getElementById('success-popup').classList.remove('hidden');
+            } else {
+                alert('Please fill in all fields.');
+            }
+        });
+
+        document.getElementById('close-popup').addEventListener('click', function() {
+            document.getElementById('success-popup').classList.add('hidden');
         });
   </script>
  </body>
