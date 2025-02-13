@@ -47,15 +47,6 @@
             transition: transform 0.3s ease-in-out;
         }
 
-        /* .card-3d {
-            transform-style: preserve-3d;
-            transition: transform 0.5s;
-        } */
-
-        /* .card-3d:hover {
-            transform: rotateY(20deg) rotateX(10deg);
-        } */
-
         .loader {
             --s: 25px;
             --_d: calc(0.353*var(--s));
@@ -90,9 +81,22 @@
             50%, 100% { transform: translate(0); }
         }
   </style>
+  <script>
+    window.addEventListener('load', function() {
+        setTimeout(function() {
+            document.querySelector('.loader').style.display = 'none';
+        }, 3000);
+    });
+    document.addEventListener('DOMContentLoaded', function() {
+        document.getElementById('menu-btn').addEventListener('click', function() {
+            var menu = document.getElementById('mobile-menu');
+            menu.classList.toggle('hidden');
+        });
+    });
+  </script>
  </head>
  <body class="bg-gradient-to-r from-gray-800 via-gray-900 to-black text-gray-100">
-  <div class="loader" id="loader"></div>
+  <div class="loader"></div>
   <!-- Navbar -->
   <nav class="bg-gray-900 shadow-md">
    <div class="container mx-auto px-4 py-4 flex justify-between items-center">
@@ -119,7 +123,7 @@
    </div>
   </nav>
   <!-- Mobile Menu -->
-  <div class="hidden md:hidden" id="mobile-menu">
+  <div class="hidden" id="mobile-menu">
    <a class="block px-4 py-2 text-gray-400 hover:text-gray-100" href="#about">
     About
    </a>
@@ -271,22 +275,5 @@
     </div>
    </div>
   </footer>
-  <script>
-   window.addEventListener('load', function() {
-            setTimeout(function() {
-                document.getElementById('loader').style.display = 'none';
-            }, 3000);
-        });
-        document.getElementById('menu-btn').addEventListener('click', function() {
-            var menu = document.getElementById('mobile-menu');
-            menu.classList.toggle('hidden');
-        });
-        document.getElementById('contact-form').addEventListener('submit', function(event) {
-            event.preventDefault();
-            var name = document.getElementById('name').value;
-            var email = document.getElementById('email').value;
-            var message = document.getElementById('message').value;
-
-  </script>
- </body>
+</body>
 </html>
