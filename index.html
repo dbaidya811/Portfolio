@@ -47,46 +47,8 @@
             transition: transform 0.3s ease-in-out;
         }
 
-        .loader {
-            --s: 25px;
-            --_d: calc(0.353*var(--s));
-            width: calc(var(--s) + var(--_d));
-            aspect-ratio: 1;
-            display: grid;
-            position: fixed;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            z-index: 9999;
-        }
-        .loader:before,
-        .loader:after {
-            content: "";
-            clip-path: polygon(var(--_d) 0, 100% 0, 100% calc(100% - var(--_d)), calc(100% - var(--_d)) 100%, 0 100%, 0 var(--_d));
-            background: conic-gradient(from -90deg at var(--s) var(--_d), #fff 135deg, #666 0 270deg, #aaa 0);
-            animation: l4 1.2s infinite;
-        }
-        .loader:before {
-            z-index: 1;
-            margin-bottom: calc(var(--_d)/-2 - 1px);
-        }
-        .loader:after {
-            margin-top: calc(var(--_d)/-2 - 1px);
-            animation-delay: 0.6s;
-        }
-        @keyframes l4 {
-            0% { transform: translate(0); }
-            16.67% { transform: translate(-10px); }
-            33.33% { transform: translate(10px); }
-            50%, 100% { transform: translate(0); }
-        }
   </style>
   <script>
-    window.addEventListener('load', function() {
-        setTimeout(function() {
-            document.querySelector('.loader').style.display = 'none';
-        }, 3000);
-    });
     document.addEventListener('DOMContentLoaded', function() {
         document.getElementById('menu-btn').addEventListener('click', function() {
             var menu = document.getElementById('mobile-menu');
@@ -96,7 +58,6 @@
   </script>
  </head>
  <body class="bg-gradient-to-r from-gray-800 via-gray-900 to-black text-gray-100">
-  <div class="loader"></div>
   <!-- Navbar -->
   <nav class="bg-gray-900 shadow-md">
    <div class="container mx-auto px-4 py-4 flex justify-between items-center">
@@ -175,7 +136,7 @@
       <p class="mt-2 text-gray-400">
        A modern and responsive web application built with the latest technologies.
       </p>
-      <a href="projects1.html" class="mt-4 inline-block bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-600">See More</a>
+      <a href="https://dbaidya811.github.io/Chat-Genius.ai/" class="mt-4 inline-block bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-600">See More</a>
      </div>
      <div class="bg-gray-800 p-6 rounded-lg shadow-lg hover-grow">
       <img alt="Screenshot of Project 2, an innovative mobile app design" class="rounded-lg mb-4" height="300" src="https://storage.googleapis.com/a1aa/image/pv33PIhE4EG2lsIMdIgYOTNgLRGWP0FjBuMV8Zas10A.jpg" width="400"/>
@@ -185,7 +146,7 @@
       <p class="mt-2 text-gray-400">
        An innovative mobile app design that enhances user experience and engagement.
       </p>
-      <a href="projects2.html" class="mt-4 inline-block bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-600">See More</a>
+      <a href="https://dbaidya811.github.io/weather-app/" class="mt-4 inline-block bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-600">See More</a>
      </div>
      <div class="bg-gray-800 p-6 rounded-lg shadow-lg hover-grow">
       <img alt="Screenshot of Project 3, a sleek and modern e-commerce website" class="rounded-lg mb-4" height="300" src="https://storage.googleapis.com/a1aa/image/H6mwK2QVxE8Ab9O1EUVT_mhXhgZzJn7y7cVCzPeeHAQ.jpg" width="400"/>
@@ -195,7 +156,7 @@
       <p class="mt-2 text-gray-400">
        A sleek and modern e-commerce website with a focus on usability and aesthetics.
       </p>
-      <a href="projects3.html" class="mt-4 inline-block bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-600">See More</a>
+      <a href="https://dbaidya811.github.io/Movie-hub/" class="mt-4 inline-block bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-600">See More</a>
      </div>
     </div>
    </div>
@@ -253,7 +214,7 @@
   <footer class="bg-gray-900 py-6">
    <div class="container mx-auto px-4 text-center">
     <p class="text-gray-400">
-     © 2023 Deep Baidya. All rights reserved.
+     © 2025 Deep Baidya. All rights reserved.
     </p>
     <div class="mt-4 flex justify-center space-x-4">
      <a class="text-gray-400 hover:text-gray-100" href="https://www.facebook.com/share/1EL6FC8JH4/">
