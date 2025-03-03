@@ -23,13 +23,45 @@
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> </a> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a> <a href="https://cloud.google.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" alt="gcp" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p>
+# 🌐 Deep Baidya - Portfolio  
 
-<h3 align="left">Support:</h3>
-<p><a href="https://www.buymeacoffee.com/dbaidya811e"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="buymeacoffee.com/dbaidya811e" /></a></p><br><br>
+Welcome to my portfolio! I am **Deep Baidya**, a passionate **web developer** with expertise in **HTML, CSS, JavaScript, AI, and automation**. I love building interactive web applications and exploring new technologies.  
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=dbaidya811&show_icons=true&locale=en&layout=compact" alt="dbaidya811" /></p>
+## 🚀 Live Portfolio  
+🔗 **Visit My Portfolio:** [deepbaidya.netlify.app](https://deepbaidya.netlify.app/)  
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=dbaidya811&show_icons=true&locale=en" alt="dbaidya811" /></p>
+## 🛠️ Skills & Technologies  
+<p align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="50" alt="HTML Logo" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="50" alt="CSS Logo" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="50" alt="JavaScript Logo" />
+</p>
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=dbaidya811&" alt="dbaidya811" /></p>
+## 📲 Connect With Me  
+<p align="left">
+  <a href="https://www.linkedin.com/in/deep-baidya-0376b1315?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="40" alt="LinkedIn Logo" />
+  </a>
+  <a href="https://www.facebook.com/share/19YdZNBqre/" target="_blank">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" width="40" alt="Facebook Logo" />
+  </a>
+  <a href="https://www.instagram.com/dbaidya811?igsh=eDQxdHpoaW1ydmlk" target="_blank">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" width="40" alt="Instagram Logo" />
+  </a>
+  <a href="https://x.com/dbaidya811?s=09" target="_blank">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/60/X_logo_2023_original.svg" width="40" alt="X (Twitter) Logo" />
+  </a>
+</p>
+
+## ☕ Support My Work  
+If you like my work and want to support me, buy me a coffee!  
+<a href="https://buymeacoffee.com/dbaidya811e" target="_blank">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/d/d7/Buy_Me_A_Coffee_Logo.png" width="150" alt="Buy Me a Coffee Logo" />
+</a>
+
+## 📧 Contact  
+📩 **Email:** [dbaidya811@gmail.com](mailto:dbaidya811@gmail.com)  
+
+---
+
+Thanks for visiting my portfolio! Feel free to connect with me. 🚀
